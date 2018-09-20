@@ -1,0 +1,15 @@
+div {
+    background-color: rgb(240, 240, 240);
+    width: 400px;
+    height: 300px;
+    color: rgb(36, 35, 35);
+    text-align: center;
+    border-top: 20px solid blueviolet;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2), 0px 15px 35px rgba(0,0,0,0.2), 0px 20px 40px rgba(0,0,0,0.2), 0px 25px 45px rgba(0,0,0,0.1), 0px 30px 50px rgba(0,0,0,0.0), 0px 30px 55px rgba(0,0,0,0.0);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
