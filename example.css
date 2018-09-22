@@ -1,0 +1,66 @@
+
+body {
+    margin         : 0;
+    padding        : 0;
+    background     : url('img/agriculture-apple-apple-tree-6035.jpg') no-repeat;
+    background-size: cover;
+    overflow       : hidden;
+    
+}
+.main-container{
+    box-sizing                : border-box;
+    overflow                  : hidden;
+    border-top-left-radius    : 5px;
+    border-top-right-radius   : 5px;
+    border-bottom-left-radius : 5px;
+    border-bottom-right-radius: 5px;
+    width                     : 400px;
+    height                    : 500px;
+    position                  : absolute;
+    top                       : 50%;
+    left                      : 50%;
+    transform                 : translate(-50%, -50%);
+    background                : inherit;
+    box-shadow                : 0px 5px 40px 2px rgba(0, 0, 0, 0.5), 0px 10px 45px 4px rgba(0, 0, 0, 0.4), 0px 15px 50px 6px rgba(0, 0, 0, 0.2), 0px 20px 60px 7px rgba(0, 0, 0, 0.2), 0px 30px 60px 8px rgba(0, 0, 0, 0.1), 0px 35px 50px 9px rgba(0, 0, 0, 0.1)
+}
+.inside-container {
+    position: absolute;
+    top     : 70px;
+    left    : 41px
+}
+input[type="text"], input[type="email"] {
+    width        : 300px;
+    padding      : 8px;
+    border-radius: 4px;
+    outline      : none;
+    border       : none;
+}
+label {
+    color      : whitesmoke;
+    font-family: "courier";
+    font-size  : 18px;
+    position   : relative;
+}
+.change {
+    position: relative;
+    top     : 20px;
+}
+input[placeholder] {
+    font-size       : 18px;
+    font-family     : 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+    color           : black
+}
+.sub-container {
+    width     : 504px;
+    height    : 567px;
+    background: inherit;
+    filter    : blur(20px);
+    position  : absolute;
+    left      : 50%;
+    top       : 50%;
+    transform : translate(-50%,-50%);
+    box-sizing: border-box;
+}
+
+
